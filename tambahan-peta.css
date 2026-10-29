@@ -1,0 +1,5 @@
+/* Tempel di bagian paling bawah css/style.css (sebelum @media kalau mau) */
+.peta{display:block;position:relative;margin-top:28px;max-width:480px;border:3px solid var(--kuning);border-radius:4px;overflow:hidden;box-shadow:6px 6px 0 rgba(0,0,0,.35);transition:transform .12s,box-shadow .12s}
+.peta:hover{transform:translate(3px,3px);box-shadow:3px 3px 0 rgba(0,0,0,.35)}
+.peta img{display:block;width:100%;height:auto}
+.peta span{position:absolute;left:0;bottom:0;background:var(--kuning);color:var(--navy);font-weight:700;font-size:15px;padding:7px 16px;border-top:3px solid var(--navy);border-right:3px solid var(--navy)}

@@ -33,6 +33,6 @@ function hitung(){
 ['tp','dp','tn'].forEach(i=>document.getElementById(i).addEventListener('input',hitung));hitung();
 // kontak
 fm.onsubmit=e=>{e.preventDefault();
- const t=`Halo Griya Kembang, saya ${nm.value}. Saya tertarik dengan tipe ${ty.value}. ${ps.value}`;
- window.open('https://wa.me/6281234567890?text='+encodeURIComponent(t),'_blank');
+ const t=`Halo Alden & Co., saya ${nm.value}. Saya tertarik dengan tipe ${ty.value}. ${ps.value}`;
+ window.open('https://wa.me/6282320488019?text='+encodeURIComponent(t),'_blank');
 };
