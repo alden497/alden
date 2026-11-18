@@ -121,6 +121,8 @@ footer{background:#0f1b35;color:#aab4c8;text-align:center;padding:22px;font-size
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.papan span{animation:none!important}}
 .papan span{animation:geser 28s linear infinite}
+@keyframes geser{to{transform:translateX(-50%)}}
+
 #sumber{background:var(--langit)}
 .bungkus-sumber{overflow-x:auto;margin-top:28px}
 .sumber{width:100%;min-width:640px;border-collapse:collapse;background:#fff;border:3px solid var(--navy)}
@@ -130,4 +132,4 @@ footer{background:#0f1b35;color:#aab4c8;text-align:center;padding:22px;font-size
 .sumber td:first-child{width:200px}
 .sumber td img{display:inline-block;width:84px;height:auto;margin:2px 6px 2px 0;border:2px solid var(--navy);background:var(--langit);vertical-align:middle}
 .sumber small{color:#5a6472}
-@keyframes geser{to{transform:translateX(-50%)}}
+
